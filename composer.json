@@ -1,0 +1,21 @@
+{
+  "name": "untek-sandbox/main",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Untek Developer",
+      "email": "untek.developer@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Untek\\": "src",
+      "Untek\\Tests\\": "tests"
+    }
+  }
+}
